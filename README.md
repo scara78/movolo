@@ -1,27 +1,34 @@
-# Movolo
-Movolo is a Movie & TV search engine, powered by TMDB & Svelte.
+## Usage
 
-# Running a development environnment locally
-1. `git clone https://github.com/lem6ns/movolo`
-2. `npm i`
-3. `npm run dev`
+Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
 
-# Building
-1. `git clone https://github.com/lem6ns/movolo`
-2. `npm i`
-3. `npm run build`
+This is the reason you see a `pnpm-lock.yaml`. That being said, any package manager will work. This file can be safely be removed once you clone a template.
 
-# Running locally for windows users
-1. Install [Web Server for Chrome](https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb)
-2. Grab the latest release from https://github.com/lem6ns/movolo/releases/latest
-3. Extract the latest release
-4. Change the folder to the Release folder
-6. Use Movolo!
+```bash
+$ npm install # or pnpm install or yarn install
+```
 
+### Learn more on the [Solid Website](https://solidjs.com) and come chat with us on our [Discord](https://discord.com/invite/solidjs)
 
-# Running locally for linux users
-1. Grab the latest release from https://github.com/lem6ns/movolo/releases/latest
-2. Extract the latest release
-3. cd into the release folder
-4. `python -m http.server`
-5. Movolo can be accessed from http://localhost:8000
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm dev` or `npm start`
+
+Runs the app in the development mode.<br>
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.<br>
+
+### `npm run build`
+
+Builds the app for production to the `dist` folder.<br>
+It correctly bundles Solid in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.<br>
+Your app is ready to be deployed!
+
+## Deployment
+
+You can deploy the `dist` folder to any static host provider (netlify, surge, now, etc.)
